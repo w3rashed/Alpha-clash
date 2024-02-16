@@ -22,7 +22,7 @@ function wrongKeyBacgroundColorId(elementId){
     const element = document.getElementById(elementId)
     element.classList.add('bg-red-800')
 }
-// wrong key pressed  after riht key color set
+// wrong key pressed  after riht key color remove
 function wrongKeyAfterBacgroundColorId(elementId){
     const element = document.getElementById(elementId)
     element.classList.remove('bg-red-800')

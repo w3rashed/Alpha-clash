@@ -122,8 +122,9 @@ function gameOver(){
     const currentAlphabet = getElementTextById('current-laphabet');
 
     // console log chara problem hocche 
-    console.log(currentAlphabet)
+    // console.log(currentAlphabet)
     removeBacgroundColorId(currentAlphabet)
     wrongKeyAfterBacgroundColorId(currentAlphabet)
+    // wrongKeyAfterBacgroundColorId(currentAlphabet)
     
 }
